@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Хамитов Иван - Фуллстэк разработчик</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">ИХ</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Главная</a></li>
+                <li><a href="#about" class="nav-link">Обо мне</a></li>
+                <li><a href="#skills" class="nav-link">Навыки</a></li>
+                <li><a href="#projects" class="nav-link">Проекты</a></li>
+                <li><a href="#contact" class="nav-link">Контакты</a></li>
+            </ul>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="typing-effect">Хамитов Иван</h1>
+                <p class="hero-subtitle">Фуллстэк разработчик</p>
+                <p class="hero-description">Создаю полнофункциональные веб-приложения от frontend до backend. Разрабатываю современные интерфейсы и надежные серверные решения</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Мои проекты</a>
+                    <a href="#contact" class="btn btn-secondary">Связаться</a>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="50">0</div>
+                    <div class="stat-label">Проектов</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="3">0</div>
+                    <div class="stat-label">Лет опыта</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="100">0</div>
+                    <div class="stat-label">Довольных клиентов</div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">01.</span>
+                Обо мне
+            </h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Привет! Я Иван, фуллстэк разработчик с опытом создания полнофункциональных веб-приложений. Я работаю как с клиентской, так и с серверной частью, создавая комплексные решения от концепции до реализации.</p>
+                    <p>Мой стек включает современные frontend технологии (React, JavaScript, TypeScript) и backend решения (Node.js, базы данных, API). Я специализируюсь на создании масштабируемых приложений с акцентом на производительность, безопасность и удобство использования.</p>
+                    <p>Как фуллстэк разработчик, я понимаю весь цикл разработки и могу работать над проектом от начала до конца. Постоянно изучаю новые технологии и лучшие практики в обеих областях.</p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <span class="highlight-icon">🎯</span>
+                            <span>Фокус на качество</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-icon">⚡</span>
+                            <span>Быстрая разработка</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-icon">🤝</span>
+                            <span>Командная работа</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">02.</span>
+                Технологии и навыки
+            </h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">HTML5</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">CSS3 / SCSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">React</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">React Hooks</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">TypeScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Backend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="87"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Golang</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="82"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Express.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="83"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">REST API</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">MongoDB</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="78"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">PostgreSQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Инструменты & DevOps</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Git / GitHub</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="92"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Docker</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Webpack / Vite</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="82"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Linux</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">CI/CD</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tech-tags">
+                <span class="tech-tag">Full-Stack Development</span>
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Golang</span>
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">RESTful APIs</span>
+                <span class="tech-tag">Database Design</span>
+                <span class="tech-tag">Performance Optimization</span>
+                <span class="tech-tag">System Architecture</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">03.</span>
+                Избранные проекты
+            </h2>
+            <p class="section-subtitle">Вот несколько проектов, над которыми я работал</p>
+            <div class="gallery">
+                <a href="https://ivanbaradan.github.io/Tatargram/telegram_service/telegram_frontend/index.html" class="project" target="_blank">
+                    <div class="project-image-wrapper">
+                        <img src="01867d31-ccbc-4e1b-aeef-4d6db2ae8858.jpg" alt="CRM система">
+                        <div class="project-overlay">
+                            <span class="project-link-icon">🔗</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">CRM система</h3>
+                        <p class="project-description">Полнофункциональная система управления клиентами с современным интерфейсом и интуитивной навигацией</p>
+                        <div class="project-tags">
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">Node.js</span>
+                            <span class="project-tag">MongoDB</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://ivanbaradan.github.io/aviasales" class="project" target="_blank">
+                    <div class="project-image-wrapper">
+                        <img src="image.png" alt="Поиск авиабилетов">
+                        <div class="project-overlay">
+                            <span class="project-link-icon">🔗</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Поиск авиабилетов</h3>
+                        <p class="project-description">Интерактивное приложение для поиска и бронирования авиабилетов с фильтрацией и сравнением цен</p>
+                        <div class="project-tags">
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">API</span>
+                            <span class="project-tag">Responsive</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://ivanbaradan.github.io/course" class="project" target="_blank">
+                    <div class="project-image-wrapper">
+                        <img src="image (1).png" alt="Курс программирования">
+                        <div class="project-overlay">
+                            <span class="project-link-icon">🔗</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Курс программирования</h3>
+                        <p class="project-description">Образовательная платформа с интерактивными уроками и практическими заданиями для изучения программирования</p>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML/CSS</span>
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">Education</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">04.</span>
+                Связаться со мной
+            </h2>
+            <p class="section-subtitle">Есть интересный проект? Давайте обсудим!</p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <a href="mailto:iwanhamitow@gmail.com">iwanhamitow@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">💼</div>
+                        <div class="contact-details">
+                            <h3>Доступность</h3>
+                            <p>Открыт для новых проектов</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">⚡</div>
+                        <div class="contact-details">
+                            <h3>Время ответа</h3>
+                            <p>Обычно отвечаю в течение 24 часов</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Имя</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Сообщение</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Отправить сообщение</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Хамитов Иван. Все права защищены.</p>
+                <div class="footer-links">
+                    <a href="mailto:iwanhamitow@gmail.com" class="footer-link">Email</a>
+                    <a href="https://github.com/ivanbaradan" class="footer-link" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
